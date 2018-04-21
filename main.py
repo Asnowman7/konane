@@ -3,7 +3,7 @@ konane main file
 Austin Wan & Alex Snow
 '''
 
-import game_analysis as game
+import game
 import random
 import pdb
 import csv
@@ -376,4 +376,6 @@ def exp_data_generator():
                 HUM_BRANCHING[i], HUM_AVG_TIMES[i], CPU_EVALS[i],
                 CPU_CUTOFFS[i], CPU_BRANCHING[i], CPU_AVG_TIMES[i]])
 
-main()
+
+if __name__ == "__main__":
+    main()
